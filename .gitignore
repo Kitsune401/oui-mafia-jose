@@ -1,0 +1,11 @@
+saves/*
+logs/*
+crash-reports/*
+
+usernamecache.json
+usercache.json
+patchouli_data.json
+pixel.dat
+pixelc.dat
+servers.dat
+servers.dat_old
