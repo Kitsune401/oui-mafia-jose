@@ -58,7 +58,7 @@
 	[server.dimensionalWarp]
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: > 0
-		dimensionalWarpXpCost = 3
+		dimensionalWarpXpCost = 0.0
 		#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 		#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
 		dimensionalWarp = "ALLOW"
