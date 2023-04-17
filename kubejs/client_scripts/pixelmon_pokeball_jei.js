@@ -1,0 +1,43 @@
+// priority: 0
+
+console.info('Forcing pokeballs to show')
+
+onEvent('jei.add.items', event => {
+	// Show items in JEI here
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"poke_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"ancient_great_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"ancient_heavy_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"ancient_poke_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"ancient_ultra_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"dive_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"dusk_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"fast_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"friend_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"gigaton_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"great_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"heal_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"heavy_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"jet_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"leaden_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"level_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"love_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"lure_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"luxury_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"master_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"moon_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"nest_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"net_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"origin_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"premier_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"quick_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"repeat_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"safari_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"sport_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"timer_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"ultra_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"wing_ball"}'))
+	event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"park_ball"}'))
+
+    //Déjà in-game
+	//event.add(Item.of('pixelmon:poke_ball', '{PokeBallID:"feather_ball"}'))
+})
