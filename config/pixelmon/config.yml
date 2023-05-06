@@ -9,7 +9,7 @@ allow-planting: true
 cloning-machine-enabled: true
 lake-trio-max-enchants: 3
 engage-player-by-poke-ball: true
-enable-wild-aggression: true
+enable-wild-aggression: false
 shrine-encounter-mode: Once
 spawners-op-only: true
 npc-editor-op-only: true
